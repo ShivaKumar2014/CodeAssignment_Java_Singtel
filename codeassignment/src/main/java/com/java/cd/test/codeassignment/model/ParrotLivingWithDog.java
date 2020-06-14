@@ -2,8 +2,8 @@ package com.java.cd.test.codeassignment.model;
 
 public class ParrotLivingWithDog extends ParrotDecorator {
 
-	public ParrotLivingWithDog(Bird b) {
-		super(b);
+	public ParrotLivingWithDog(Bird parrot) {
+		super(parrot);
 	}
 
 	@Override
